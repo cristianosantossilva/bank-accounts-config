@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to Bank accounts related production with production APIs"
+  message: "Welcome to Bank accounts related production with webhook APIs"
   contactDetails:
     name: "Cristiano Silva - Product Owner"
     email: "{cipher}671ba2e7dc8a261756e8f0172c3c3e6bcb64bc02b58d1035790112e22779957ea6ef4cead95222fc321d47a53e982cec"
