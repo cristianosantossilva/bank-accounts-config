@@ -5,7 +5,7 @@ accounts:
   message: "Welcome to Bank accounts related PROD APIs"
   contactDetails:
     name: "Cristiano Silva - Product Owner"
-    email: "cristiano@gmail.com"
+    email: "{cipher}671ba2e7dc8a261756e8f0172c3c3e6bcb64bc02b58d1035790112e22779957ea6ef4cead95222fc321d47a53e982cec"
   onCallSupport:
     - (55) 1195555-1234
     - (55) 1195523-1345
