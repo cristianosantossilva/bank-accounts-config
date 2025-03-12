@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to Bank cards related local APIs "
+  contactDetails:
+    name: "Cristiano Silva - Developer"
+    email: "cristiano@gmail"
+  onCallSupport:
+    - (55) 1195555-1234
+    - (55) 1195523-1345
