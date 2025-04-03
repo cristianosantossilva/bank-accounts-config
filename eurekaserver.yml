@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # desabilitando a busca dos detalhes de registros de outros microservicos
+    # Esse servidor nunca chamara os microservicos, por isso n�o � necess�rio os detalhes de registros
+    fetchRegistry: false
+    # desabilitando o registro e exposicao dos detalhes do registro do servico Discovery
+    # desabilitando o registro do servidor eureka com ele mesmo
+    registerWithEureka: false
+    serviceUrl:
+      # exposicao de funcionalidades e disponibilizacao de conexao de outros microservices para registros de detalhes ou descoberta
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
